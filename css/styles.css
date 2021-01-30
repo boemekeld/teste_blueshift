@@ -1,0 +1,90 @@
+*{
+    font-family: 'Oswald', sans-serif;
+    box-sizing: border-box;
+}
+
+.cabecalho{
+    background-color: white;
+    padding: 30px 0px;
+}
+.caixa{
+    position: relative;
+    width: auto;
+    margin: 10px 400px;
+}
+
+.logo>img{
+    height: 200px;
+    width: 200px;
+}
+nav{
+    position: absolute;
+    top: 170px;
+    right: 0;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a{
+    text-transform: uppercase;
+    color: #5d5b5b;
+    text-decoration: none;
+}
+
+.principal{
+    background-color: white;
+    /* width: 940px; */
+    align-items: center;
+    padding: 30px 0;
+}
+
+.diferenciais{
+    position: relative;
+    width: 80%;
+    margin: 0 430px;
+}
+.diferenciais>h1{
+    font-size: 2.0rem;
+    color: #808080;
+}
+.foto_demonstrativa{
+    position: relative;
+    width: 940px;
+    margin: 10px 400px;
+}
+.foto_demonstrativa>img{
+    /* height: 500px; */
+    width: 1125px;
+}
+
+table{
+    /* padding: 10px; */
+    margin: 10px 390px 50px;
+}
+td, th {
+    padding: 10px 10px;
+    text-align: left;
+}
+.rodape{
+    background-color: white;
+}
+.alinhamento{
+    padding: 0px 400px;
+    padding-top: 70px;
+}
+
+.alinhamento>h1{
+    text-align: right;
+    font-size: 1.0rem;
+    color: #5d5b5b;
+}
+
+.caixinha{
+    list-style-type: none;
+}
+.caixinha:before{
+    content: "■";
+    color: #DCDCDC;
+    margin: 1px 10px 0 0;
+}
